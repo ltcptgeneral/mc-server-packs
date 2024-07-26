@@ -1,0 +1,32 @@
+{
+ "values": [
+ "no_vault_limit:00000",
+ "no_vault_limit:00001",
+ "no_vault_limit:00010",
+ "no_vault_limit:00011",
+ "no_vault_limit:00100",
+ "no_vault_limit:00101",
+ "no_vault_limit:00110",
+ "no_vault_limit:00111",
+ "no_vault_limit:01000",
+ "no_vault_limit:01001",
+ "no_vault_limit:01010",
+ "no_vault_limit:01011",
+ "no_vault_limit:01100",
+ "no_vault_limit:01101",
+ "no_vault_limit:01110",
+ "no_vault_limit:01111",
+ "no_vault_limit:10000",
+ "no_vault_limit:10001",
+ "no_vault_limit:10010",
+ "no_vault_limit:10011",
+ "no_vault_limit:10100",
+ "no_vault_limit:10101",
+ "no_vault_limit:10110",
+ "no_vault_limit:10111",
+ "no_vault_limit:11000",
+ "no_vault_limit:11001",
+ "no_vault_limit:11010",
+ "no_vault_limit:11011"
+ ]
+}

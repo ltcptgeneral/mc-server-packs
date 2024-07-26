@@ -1,0 +1,1 @@
+execute positioned as @a if block ~ ~ ~ minecraft:vault run data merge block ~ ~ ~ {server_data:{rewarded_players:[[]]}}

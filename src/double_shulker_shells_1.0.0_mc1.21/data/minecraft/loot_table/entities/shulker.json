@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/shulker"
+}
