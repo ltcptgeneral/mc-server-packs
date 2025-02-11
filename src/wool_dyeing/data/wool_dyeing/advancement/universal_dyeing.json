@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_wool"
+    },
+    "title": "Better Wool Dyeing",
+    "description": "Dye 8 different wool in bulk.",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "minecraft:root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ]
+}

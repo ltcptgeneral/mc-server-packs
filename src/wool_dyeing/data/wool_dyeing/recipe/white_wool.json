@@ -23,7 +23,7 @@
                 "minecraft:red_wool",
                 "minecraft:black_wool"
             ],
-        "O": "#universal_dyeing:dyes/white_dye"
+        "O": "minecraft:white_dye"
     },
     "result": {
         "id": "minecraft:white_wool",
