@@ -12,4 +12,6 @@ clean:
 		rm -f "$(DIST)/$$d.zip" ; \
 	done
 
-.PHONY: all $(SUBDIRS)
+test: build
+
+.PHONY: all $(SUBDIRS) clean test
