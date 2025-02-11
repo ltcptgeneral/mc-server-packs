@@ -23,7 +23,7 @@
                 "minecraft:red_stained_glass_pane",
                 "minecraft:black_stained_glass_pane"
             ],
-        "O": "#universal_dyeing:dyes/brown_dye"
+        "O": "minecraft:brown_dye"
     },
     "result": {
         "id": "minecraft:brown_stained_glass_pane",

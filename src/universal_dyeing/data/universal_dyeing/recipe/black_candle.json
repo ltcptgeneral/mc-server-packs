@@ -23,7 +23,7 @@
                 "minecraft:green_candle",
                 "minecraft:red_candle"
             ],
-        "O": "#universal_dyeing:dyes/black_dye"
+        "O": "minecraft:black_dye"
     },
     "result": {
         "id": "minecraft:black_candle",

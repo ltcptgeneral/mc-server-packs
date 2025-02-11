@@ -23,7 +23,7 @@
                 "minecraft:red_concrete_powder",
                 "minecraft:black_concrete_powder"
             ],
-        "O": "#universal_dyeing:dyes/brown_dye"
+        "O": "minecraft:brown_dye"
     },
     "result": {
         "id": "minecraft:brown_concrete_powder",

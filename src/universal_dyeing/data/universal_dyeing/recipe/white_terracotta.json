@@ -23,7 +23,7 @@
                 "minecraft:red_terracotta",
                 "minecraft:black_terracotta"
             ],
-        "O": "#universal_dyeing:dyes/white_dye"
+        "O": "minecraft:white_dye"
     },
     "result": {
         "id": "minecraft:white_terracotta",

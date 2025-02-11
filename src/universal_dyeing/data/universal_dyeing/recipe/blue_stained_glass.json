@@ -23,7 +23,7 @@
                 "minecraft:red_stained_glass",
                 "minecraft:black_stained_glass"
             ],
-        "O": "#universal_dyeing:dyes/blue_dye"
+        "O": "minecraft:blue_dye"
     },
     "result": {
         "id": "minecraft:blue_stained_glass",
