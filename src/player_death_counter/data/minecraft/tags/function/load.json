@@ -1,1 +1,6 @@
-{"replace":false,"values":["player_death_counter:load"]}
+{
+	"replace": false,
+	"values": [
+		"player_death_counter:load"
+	]
+}

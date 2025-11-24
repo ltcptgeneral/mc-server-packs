@@ -1,23 +1,22 @@
 {
 	"display": {
-	  "icon": {
-		"id": "minecraft:white_concrete_powder"
-	  },
-	  "title": "Cauldron Concrete",
-	  "description": "Drop concrete powder into a cauldron with water to make hardened concrete.",
-	  "show_toast": false,
-	  "announce_to_chat": false
+		"icon": {
+			"id": "minecraft:white_concrete_powder"
+		},
+		"title": "Cauldron Concrete",
+		"description": "Drop concrete powder into a cauldron with water to make hardened concrete.",
+		"show_toast": false,
+		"announce_to_chat": false
 	},
 	"criteria": {
-	  "tick": {
-		"trigger": "minecraft:tick"
-	  }
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
 	},
 	"requirements": [
-	  [
-		"tick"
-	  ]
+		[
+			"tick"
+		]
 	],
 	"parent": "minecraft:root"
-  }
-  
+}

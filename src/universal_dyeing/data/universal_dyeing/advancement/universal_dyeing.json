@@ -1,22 +1,22 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:orange_concrete_powder"
-    },
-    "title": "Universal Dyeing",
-    "description": "Dye 8 different items in bulk.",
-    "show_toast": false,
-    "announce_to_chat": false
-  },
-  "parent": "minecraft:root",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
-    ]
-  ]
+	"display": {
+		"icon": {
+			"id": "minecraft:orange_concrete_powder"
+		},
+		"title": "Universal Dyeing",
+		"description": "Dye 8 different items in bulk.",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
 }

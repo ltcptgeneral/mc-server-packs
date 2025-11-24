@@ -1,5 +1,5 @@
 {
-    "values": [
+	"values": [
 		"minecraft:bone_meal",
 		"minecraft:orange_dye",
 		"minecraft:magenta_dye",
@@ -20,5 +20,5 @@
 		"minecraft:brown_dye",
 		"minecraft:blue_dye",
 		"minecraft:white_dye"
-    ]
+	]
 }

@@ -1,4 +1,4 @@
 {
-    "function": "minecraft:set_item",
-    "item": "minecraft:mud"
+	"function": "minecraft:set_item",
+	"item": "minecraft:mud"
 }

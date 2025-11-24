@@ -1,22 +1,22 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:netherrack"
-    },
-    "title": "Nether Coordinate Scale 1:1",
-    "description": "1 to 1, Nether to Overworld coordinates.",
-    "show_toast": false,
-    "announce_to_chat": false
-  },
-  "parent": "minecraft:root",
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
-    ]
-  ]
+	"display": {
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"title": "Nether Coordinate Scale 1:1",
+		"description": "1 to 1, Nether to Overworld coordinates.",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"parent": "minecraft:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
 }
