@@ -1,23 +1,23 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:nether_star"
+    "display": {
+        "icon": {
+            "id": "minecraft:nether_star"
+        },
+        "title": "Server Datapacks",
+        "description": "Active server datapacks.",
+        "background": "minecraft:textures/block/black_concrete.png",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
     },
-    "title": "Server Datapacks",
-    "description": "Active server datapacks.",
-    "background": "minecraft:textures/block/black_concrete.png",
-    "frame": "challenge",
-    "show_toast": false,
-    "announce_to_chat": false
-  },
-  "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
-    }
-  },
-  "requirements": [
-    [
-      "tick"
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
     ]
-  ]
 }

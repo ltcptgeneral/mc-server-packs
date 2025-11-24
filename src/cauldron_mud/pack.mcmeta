@@ -4,6 +4,6 @@
 		"supported_formats": {"min_inclusive": 48, "max_inclusive": 88},
 		"min_format": 48,
 		"max_format": 88,
-		"description": [{"text":"Player Death Counter","color":"gold"}]
+		"description": [{"text":"Cauldron Mud","color":"gold"}]
 	}
 }

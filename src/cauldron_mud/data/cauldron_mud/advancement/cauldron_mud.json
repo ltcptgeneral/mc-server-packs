@@ -1,0 +1,23 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:mud"
+	  },
+	  "title": "Cauldron Mud",
+	  "description": "Drop dirt into a cauldron with water to make mud.",
+	  "show_toast": false,
+	  "announce_to_chat": false
+	},
+	"criteria": {
+	  "tick": {
+		"trigger": "minecraft:tick"
+	  }
+	},
+	"requirements": [
+	  [
+		"tick"
+	  ]
+	],
+	"parent": "minecraft:root"
+  }
+  
