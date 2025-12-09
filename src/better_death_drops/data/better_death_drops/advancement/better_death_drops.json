@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:skeleton_skull"
+		},
+		"title": "Better Death Drops",
+		"description": "Increases item despawn time and highlights items through walls.",
+		"show_toast": false,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"parent": "minecraft:root"
+}
