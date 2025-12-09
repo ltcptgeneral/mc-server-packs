@@ -5,7 +5,7 @@
 		},
 		"title": "Server Datapacks",
 		"description": "Active server datapacks.",
-		"background": "minecraft:textures/block/black_concrete.png",
+		"background": "minecraft:block/black_concrete",
 		"frame": "challenge",
 		"show_toast": false,
 		"announce_to_chat": false
