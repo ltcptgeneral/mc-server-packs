@@ -2,7 +2,8 @@ DISTRELATIVE := ./dist
 DIST := $(shell realpath $(DISTRELATIVE))
 export DIST
 
-build: src
+build: clean src
+
 clean: 
 	rm -f dist/*
 
