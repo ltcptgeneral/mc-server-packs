@@ -7,40 +7,24 @@
         "description": [
             "",
             {
-                "text": "Retrieve your items and/or XP dropped on death from your grave by right-clicking or left-clicking it.\n\n",
+                "text": "Retrieve your items and/or XP dropped on death from your grave by right-clicking or left-clicking it.\n",
                 "color": "gold"
             },
             {
-                "text": "Enter",
-                "color": "green"
-            },
-            {
-                "text": " ",
-                "color": "gold"
-            },
-            {
-                "text": "/trigger graves",
+                "text": "Graves spawn where you died, floating to the top of water or lava.\n",
                 "color": "yellow"
             },
             {
-                "text": " for your grave list.\n\n",
-                "color": "gold"
-            },
-            {
-                "text": "Enter",
-                "color": "green"
-            },
-            {
-                "text": " ",
-                "color": "gold"
-            },
-            {
-                "text": "/function graves:config",
+                "text": "Ensure you have enough inventory space to retrieve all your items.\n",
                 "color": "yellow"
             },
             {
-                "text": " for config options and admin tools.",
-                "color": "gold"
+                "text": "/trigger graves for your grave list.\n",
+                "color": "yellow"
+            },
+            {
+                "text": "/function graves:config for config options and admin tools.",
+                "color": "yellow"
             }
         ],
         "show_toast": false,
