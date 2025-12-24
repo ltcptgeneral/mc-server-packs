@@ -11,7 +11,7 @@
                 "color": "gold"
             },
             {
-                "text": "/trigger stationary_happy_ghast while near a happy ghast to toggle this behavior.\n",
+                "text": "/trigger ghastflymode while near a happy ghast to toggle this behavior.\n",
                 "color": "yellow"
             }
         ],

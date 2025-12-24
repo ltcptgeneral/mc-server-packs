@@ -1,3 +1,5 @@
-execute as @s[nbt={still_timeout:10}] as @s[nbt={NoAI:1b}] run data modify entity @s NoAI set value 0b
+# set happy ghasts (with ghastflymode true) to have still_timeout 10
+execute as @s run data modify entity @s still_timeout set value 10
 
-execute unless entity @s[nbt={still_timeout:10}] unless entity @s[nbt={NoAI:1b}] run data modify entity @s NoAI set value 1b
+# clear still_timeout from ghasts being actively ridden by players
+execute as @e[type=minecraft:player] on vehicle if entity @s[type=minecraft:happy_ghast] run data modify entity @s still_timeout set value 0
