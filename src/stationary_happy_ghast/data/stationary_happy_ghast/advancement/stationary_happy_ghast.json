@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dried_ghast"
+        },
+        "title": "Stationary Happy Ghasts",
+        "description": [
+            "",
+            {
+                "text": "Makes happy ghasts not wander when dismounted. Also disables their ability to follow snowballs.\n",
+                "color": "gold"
+            },
+            {
+                "text": "/trigger stationary_happy_ghast while near a happy ghast to toggle this behavior.\n",
+                "color": "yellow"
+            }
+        ],
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "minecraft:root",
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

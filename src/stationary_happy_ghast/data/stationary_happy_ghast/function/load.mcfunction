@@ -1,0 +1,2 @@
+scoreboard objectives add ghastflymode trigger
+scoreboard objectives add ghast_parking_state dummy

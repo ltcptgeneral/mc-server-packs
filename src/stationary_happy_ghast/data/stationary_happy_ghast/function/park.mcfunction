@@ -1,0 +1,1 @@
+scoreboard players set @s ghast_parking_state 1
