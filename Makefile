@@ -11,7 +11,7 @@ src:
 	$(MAKE) -C $@ $(MAKECMDGOALS)
 
 dev-init: # ubuntu only 
-	apt install -y python3 openjdk-21-jre-headless
+	apt install -y python3 openjdk-25-jre-headless
 
 test: clean build
 	mkdir -p test/world/datapacks/

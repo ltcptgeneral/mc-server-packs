@@ -1,9 +1,23 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": {"min_inclusive": 48, "max_inclusive": 88},
+		"supported_formats": {"min_inclusive": 48, "max_inclusive": 2147483647},
 		"min_format": 48,
-		"max_format": 88,
+		"max_format": 2147483647,
 		"description": [{"text":"Cauldron Concrete","color":"gold"}]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "overlay_91_0",
+				"min_format": 91,
+				"max_format": 2147483647
+			},
+			{
+				"directory": "overlay_111_0",
+				"min_format": 111,
+				"max_format": 2147483647
+			}
+		]
 	}
 }

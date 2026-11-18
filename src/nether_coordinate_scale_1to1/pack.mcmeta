@@ -1,9 +1,28 @@
 {
 	"pack": {
 		"pack_format": 48,
-		"supported_formats": {"min_inclusive": 48, "max_inclusive": 88},
+		"supported_formats": {"min_inclusive": 48, "max_inclusive": 2147483647},
 		"min_format": 48,
-		"max_format": 88,
+		"max_format": 2147483647,
 		"description": [{"text":"Nether Coordinate Scale 1:1","color":"gold"}]
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "overlay_93_0",
+				"min_format": 93,
+				"max_format": 2147483647
+			},
+			{
+				"directory": "overlay_99_0",
+				"min_format": 99,
+				"max_format": 2147483647
+			},
+			{
+				"directory": "overlay_110_0",
+				"min_format": 110,
+				"max_format": 2147483647
+			}
+		]
 	}
 }
