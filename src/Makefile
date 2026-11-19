@@ -1,11 +1,10 @@
-SUBDIRS := $(shell ls -d */ | cut -f1 -d'/')
+SUBDIRS := datapacks resourcepacks
 
 build: $(SUBDIRS)
 
 $(SUBDIRS):
-	@echo "packaging $@"
-	@cd $@; zip -rq "$(DIST)/$@.zip" *
+	$(MAKE) -C $@ $(MAKECMDGOALS)
 
 test: build
 
-.PHONY: all $(SUBDIRS) clean test
+.PHONY: all $(SUBDIRS) build test

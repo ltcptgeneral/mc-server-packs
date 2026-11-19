@@ -1,0 +1,10 @@
+{
+	"item.better_gear.smithing_template.copper_upgrade.applies_to": "Leather Armor",
+	"item.better_gear.smithing_template.diamond_upgrade.applies_to": "Iron Equipment",
+	"item.better_gear.smithing_template.iron_upgrade.applies_to": "Stone, Copper, Golden & Chainmail Equipment",
+	"item.better_gear.smithing_template.stone_upgrade.applies_to": "Wooden Tools & Weapons",
+	"upgrade.better_gear.copper_upgrade": "Copper Upgrade",
+	"upgrade.better_gear.diamond_upgrade": "Diamond Upgrade",
+	"upgrade.better_gear.iron_upgrade": "Iron Upgrade",
+	"upgrade.better_gear.stone_upgrade": "Stone Upgrade"
+}

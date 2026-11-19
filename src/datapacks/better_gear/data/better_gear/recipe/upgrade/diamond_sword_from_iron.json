@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:allay_spawn_egg",
+	"base": "minecraft:iron_sword",
+	"addition": "minecraft:diamond",
+	"result": {
+		"id": "minecraft:diamond_sword"
+	}
+}

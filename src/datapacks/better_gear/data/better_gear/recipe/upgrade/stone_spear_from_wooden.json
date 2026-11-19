@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:silverfish_spawn_egg",
+	"base": "minecraft:wooden_spear",
+	"addition": "#minecraft:stone_tool_materials",
+	"result": {
+		"id": "minecraft:stone_spear"
+	}
+}

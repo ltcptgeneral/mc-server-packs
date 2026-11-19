@@ -1,0 +1,1 @@
+loot give @s loot better_gear:item/copper_upgrade_template

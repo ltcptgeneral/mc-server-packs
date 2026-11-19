@@ -1,0 +1,15 @@
+{
+	"pack": {
+		"min_format": [
+			97,
+			1
+		],
+		"max_format": 2147483647,
+		"description": [
+			{
+				"text": "Better Gear",
+				"color": "gold"
+			}
+		]
+	}
+}

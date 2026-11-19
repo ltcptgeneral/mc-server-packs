@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "better_gear:item/stone_upgrade_template"
+	}
+}
