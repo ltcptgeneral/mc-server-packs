@@ -1,4 +1,4 @@
-SUBDIRS := datapacks
+SUBDIRS := $(shell ls -d */ | cut -f1 -d'/')
 
 build: $(SUBDIRS)
 
