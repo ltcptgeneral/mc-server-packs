@@ -1,12 +1,13 @@
+.PHONY: build ensure-dist clean src dev-init test
+
 DISTRELATIVE := ./dist
 DIST := $(shell realpath $(DISTRELATIVE))
 export DIST
 
-# where test clients download the resource pack from (override: make test RP_HOST=example.com)
-RP_HOST ?= $(shell hostname -I | cut -d' ' -f1)
-RP_PORT ?= 8000
+build: ensure-dist clean src
 
-build: clean src
+ensure-dist:
+	mkdir -p dist
 
 clean:
 	rm -rf dist/*
@@ -23,5 +24,3 @@ test: clean build
 	rm -f test/world/datapacks/*
 	cp dist/datapacks/* test/world/datapacks/
 	cd test && java -Xmx1024M -Xms1024M -jar server.jar nogui
-
-.PHONY: all build clean src dev-init test
