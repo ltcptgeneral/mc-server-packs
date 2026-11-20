@@ -1,4 +1,4 @@
-SUBDIRS := datapacks resourcepacks
+SUBDIRS := datapacks
 
 build: $(SUBDIRS)
 

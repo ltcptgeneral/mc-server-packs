@@ -12,7 +12,7 @@ clean:
 	rm -rf dist/*
 
 src:
-	mkdir -p dist/datapacks dist/resourcepacks
+	mkdir -p dist/datapacks
 	$(MAKE) -C $@ $(MAKECMDGOALS)
 
 dev-init: # ubuntu only
@@ -22,15 +22,6 @@ test: clean build
 	mkdir -p test/world/datapacks/
 	rm -f test/world/datapacks/*
 	cp dist/datapacks/* test/world/datapacks/
-# the server can only send one resource pack, so merge them all into test/resourcepack/resources.zip
-	rm -rf test/resourcepack
-	mkdir -p test/resourcepack/merged
-	for pack in dist/resourcepacks/*.zip; do unzip -oq "$$pack" -d test/resourcepack/merged; done
-	cd test/resourcepack/merged && zip -rq ../resources.zip *
-	sed -i \
-		-e "s|^resource-pack=.*|resource-pack=http://$(RP_HOST):$(RP_PORT)/resources.zip|" \
-		-e "s|^resource-pack-sha1=.*|resource-pack-sha1=$$(sha1sum test/resourcepack/resources.zip | cut -d' ' -f1)|" \
-		test/server.properties
-	cd test && (python3 -m http.server $(RP_PORT) --directory resourcepack > /dev/null 2>&1 & HTTP_PID=$$!; java -Xmx1024M -Xms1024M -jar server.jar nogui; kill $$HTTP_PID)
+	cd test && java -Xmx1024M -Xms1024M -jar server.jar nogui
 
 .PHONY: all build clean src dev-init test

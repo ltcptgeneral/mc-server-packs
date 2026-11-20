@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:silverfish_spawn_egg",
-	"base": "minecraft:wooden_hoe",
-	"addition": "#minecraft:stone_tool_materials",
-	"result": {
-		"id": "minecraft:stone_hoe"
-	}
-}

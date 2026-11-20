@@ -1,1 +1,0 @@
-loot give @s loot better_gear:item/iron_upgrade_template

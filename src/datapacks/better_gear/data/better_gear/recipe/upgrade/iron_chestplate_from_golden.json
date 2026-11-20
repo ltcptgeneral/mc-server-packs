@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:iron_golem_spawn_egg",
-	"base": "minecraft:golden_chestplate",
-	"addition": "minecraft:iron_ingot",
-	"result": {
-		"id": "minecraft:iron_chestplate"
-	}
-}

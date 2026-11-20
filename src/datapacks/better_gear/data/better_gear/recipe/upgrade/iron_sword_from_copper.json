@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:iron_golem_spawn_egg",
-	"base": "minecraft:copper_sword",
-	"addition": "minecraft:iron_ingot",
-	"result": {
-		"id": "minecraft:iron_sword"
-	}
-}
